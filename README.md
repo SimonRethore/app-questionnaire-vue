@@ -1,29 +1,3 @@
-# app-questionnaire-vue
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ --- 23/10/19 12h00 ---
+ Objectif: Initialiser le projet, faire la navbar et le formulaire pour démarrer le questionnaire
+ Rendu: Navbar prête à l'emploi, formulaire CSS uniquement
