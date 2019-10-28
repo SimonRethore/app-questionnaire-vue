@@ -5,6 +5,10 @@
         <div class="col-10 text-center m-auto">
           <p class="libelle-form">Inscription</p>
 
+          <div v-if="errors.length > 0">
+            <b-alert show variant="danger" v-for="error in errors" v-bind:key="error">{{ error }}</b-alert>
+          </div>
+
           <b-form-input v-model="prenom" class="text-center my-3" placeholder="Prénom"></b-form-input>
           <b-form-input v-model="nom" class="text-center my-3" placeholder="Nom"></b-form-input>
           <b-form-input v-model="societe" class="text-center my-3" placeholder="Société"></b-form-input>
@@ -18,24 +22,24 @@
 
 <style scoped>
   .container-fluid{
-      position: fixed;
-      height: 100%;
-      bottom: 0;
-      width: 100%;
-      background-color: #ffffc5;
-    }
+    position: fixed;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffc5;
+  }
 
-    .libelle-form{
-        font-family: 'Bree Serif', serif;
-        font-size: 30px;
-        margin-bottom: 30px;
-        color: #253054;
-    }
+  .libelle-form{
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #253054;
+  }
 
-    .button-form{
-        background-color: #253054 !important;
-        color: white !important;
-    }
+  .button-form{
+    background-color: #253054 !important;
+    color: white !important;
+  }
 </style>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js%22%3E"></script>
@@ -57,6 +61,9 @@ export default {
 
   methods: {
     checkForm: function () {
+
+      const DateInsert = Date.now().toString()
+
       var context = this
 
       const form_prenom = this.prenom
@@ -79,13 +86,14 @@ export default {
 
       if(form_prenom != '' && form_nom != '' && form_societe != ''){
         db.put({
-          _id: '2',
+          _id: DateInsert,
           prenom: form_prenom,
           nom: form_nom,
           societe: form_societe
         })
-        context.$router.push({ name: 'questionnaire' })
+        context.$router.push({ name: 'questionnaire', params: { userPrenom: form_prenom, userNom: form_nom, userSociete: form_societe } })
       }else{
+        console.log('a')
         return false;
       }
     }

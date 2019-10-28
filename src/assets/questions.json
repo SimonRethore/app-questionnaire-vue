@@ -1,85 +1,98 @@
 {
-    "return": true,
-    "questions": [
-      {
-        "nom": "Lequel des langages informatiques suivants est utilisé pour l’intelligence artificielle ?",
-        "reponse": "PROLOG",
-        "reponse_disponible": [
-          "C",
-          "COBOL",
-          "PROLOG",
-          "FORTRAN"
-        ]
-      },
-      {
-        "nom": "Quel protocole fournit un service de messagerie entre différents hôtes ?",
-        "reponse": "SMTP",
-        "reponse_disponible": [
-          "FTP",
-          "TELNET",
-          "SMTP",
-          "SNMP"
-        ]
-      },
-      {
-        "nom": "Comment est appelé un programme qui convertit le langage assembleur en langage machine ?",
-        "reponse": "Assembleur",
-        "reponse_disponible": [
-          "Assembleur",
-          "Interprèteur",
-          "Compilateur",
-          "Comparateur"
-        ]
-      },
-      {
-        "nom": "Lequel des langages suivants est mieux adapté au programmation structuré ?",
-        "reponse": "PASCAL",
-        "reponse_disponible": [
-          "FORTRAN",
-          "PL/SQL",
-          "PROLOG",
-          "PASCAL"
-        ]
-      },
-      {
-        "nom": "Quel base est utilisé pour le système binaire ?",
-        "reponse": "2",
-        "reponse_disponible": [
-          "2",
-          "10",
-          "8",
-          "16"
-        ]
-      },
-      {
-        "nom": "Que signifie ASCII ?",
-        "reponse": "American standard code for information interchange",
-        "reponse_disponible": [
-          "American scientific code for information interchange",
-          "All purpose scientific code for information interchange",
-          "American security code for information interchange",
-          "American standard code for information interchange"
-        ]
-      },      
-      {
-        "nom": "Laquelle des mémoires suivantes est non volatile ?",
-        "reponse": "ROM",
-        "reponse_disponible": [
-          "SRAM",
-          "DRAM",
-          "ROM",
-          "Tout les réponses sont vrais"
-        ]
-      },
-      {
-        "nom": "Que signifie GUI ?",
-        "reponse": "Graphical User Interface",
-        "reponse_disponible": [
-          "Graph Use Interface",
-          "Graphical User Interface",
-          "Graphical Universal Interface",
-          "Graphical Unique Interface"
-        ]
-      }
-    ]
-  }
+  "questions": [
+    {
+      "nom": "Lequel des langages informatiques suivants est utilisé pour l’intelligence artificielle ?",
+      "reponse": "PROLOG",
+      "reponse_disponible": [
+        "C",
+        "COBOL",
+        "PROLOG",
+        "FORTRAN"
+      ]
+    },
+    {
+      "nom": "Quel protocole fournit un service de messagerie entre différents hôtes ?",
+      "reponse": "SMTP",
+      "reponse_disponible": [
+        "FTP",
+        "TELNET",
+        "SMTP",
+        "SNMP"
+      ]
+    },
+    {
+      "nom": "Comment est appelé un programme qui convertit le langage assembleur en langage machine ?",
+      "reponse": "Assembleur",
+      "reponse_disponible": [
+        "Assembleur",
+        "Interprèteur",
+        "Compilateur",
+        "Comparateur"
+      ]
+    },
+    {
+      "nom": "Lequel des langages suivants est mieux adapté au programmation structuré ?",
+      "reponse": "PASCAL",
+      "reponse_disponible": [
+        "FORTRAN",
+        "PL/SQL",
+        "PROLOG",
+        "PASCAL"
+      ]
+    },
+    {
+      "nom": "Quel base est utilisé pour le système binaire ?",
+      "reponse": "2",
+      "reponse_disponible": [
+        "2",
+        "10",
+        "8",
+        "16"
+      ]
+    },
+    {
+      "nom": "Que signifie ASCII ?",
+      "reponse": "American standard code for information interchange",
+      "reponse_disponible": [
+        "American scientific code for information interchange",
+        "All purpose scientific code for information interchange",
+        "American security code for information interchange",
+        "American standard code for information interchange"
+      ]
+    },      
+    {
+      "nom": "Laquelle des mémoires suivantes est non volatile ?",
+      "reponse": "ROM",
+      "reponse_disponible": [
+        "SRAM",
+        "DRAM",
+        "ROM",
+        "Toutes les réponses sont vrais"
+      ]
+    },
+    {
+      "nom": "Que signifie GUI ?",
+      "reponse": "Graphical User Interface",
+      "reponse_disponible": [
+        "Graph Use Interface",
+        "Graphical User Interface",
+        "Graphical Universal Interface",
+        "Graphical Unique Interface"
+      ]
+    },
+    {
+      "nom": "Quels langages peuvent être utilisés avec une Programmation Orienté Objet ?",
+      "reponse": [
+        "C++", 
+        "C#", 
+        "Java"
+      ],
+      "reponse_disponible": [
+        "Java",
+        "C#",
+        "HTML",
+        "C++"
+      ]
+    }
+  ]
+}

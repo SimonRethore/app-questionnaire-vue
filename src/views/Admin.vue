@@ -22,24 +22,24 @@
 
 <style scoped>
   .container-fluid{
-        position: fixed;
-        height: 100%;
-        bottom: 0;
-        width: 100%;
-        background-color: #ffffc5;
-    }
+    position: fixed;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffc5;
+  }
+  
+  .libelle-form{
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #253054;
+  }
 
-    .libelle-form{
-        font-family: 'Bree Serif', serif;
-        font-size: 30px;
-        margin-bottom: 30px;
-        color: #253054;
-    }
-
-    .button-form{
-        background-color: #253054 !important;
-        color: white !important;
-    }
+  .button-form{
+    background-color: #253054 !important;
+    color: white !important;
+  }
 </style>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js%22%3E"></script>

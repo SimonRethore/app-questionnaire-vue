@@ -1,7 +1,19 @@
- --- 23/10/19 12h00 ---
- Objectif: Initialiser le projet, faire la navbar et le formulaire pour démarrer le questionnaire
- Rendu: Navbar prête à l'emploi, formulaire CSS uniquement
+--- 23/10/19 8h00 ---  
+Objectif:  
+- [X] Initialiser le projet  
+- [X] Push du projet sur Github.io  
+- [X] Navbar  
+- [ ] Formulaire Inscription Questionnaire (manque la partie BDD)  
 
- --- 28/10/19 12h00 ---
- Objectif: Réaliser la connexion pour la partie admin ainsi que l'inscription pour le questionnaire
- Rendu: Connexion Admin valide et Inscription presque terminé
+--- 28/10/19 8h00 ---  
+Objectif:  
+- [X] Installation PouchDB  
+- [X] Inscription questionnaire  
+- [X] Connexion partie Admin  
+- [X] Fichier JSON  
+
+--- 28/10/19 19h00 ---  
+Objectif:  
+- [X] Composant Questions
+- [X] Vérification Réponse Correct
+- [X] Réponses multiples possible  

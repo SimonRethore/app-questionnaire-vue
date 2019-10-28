@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
   .main-navbar{
     background-color: #0d1a42;
     z-index: 2;

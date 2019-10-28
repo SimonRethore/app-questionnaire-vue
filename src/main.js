@@ -20,14 +20,14 @@ new Vue({
 
 var db = new PouchDB('app_questionnaire_vue')
 
+const DateInsert = Date.now().toString()
+
 db.put({
-  _id: '1',
+  _id: DateInsert,
   username: 'admin',
   password: 'admin'
 })
 
-// db.get('1').then(function (doc){
-//   console.log(doc);
-// }).catch(function (err){
-//   console.log(err);
-// })
+db.get(DateInsert).then(function (doc) {
+  console.log(doc)
+})
