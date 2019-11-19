@@ -35,8 +35,8 @@
       "reponse": "PASCAL",
       "reponse_disponible": [
         "FORTRAN",
-        "PL/SQL",
         "PROLOG",
+        "PL/SQL",
         "PASCAL"
       ]
     },

@@ -1,3 +1,17 @@
+--- Liens --- 
+- Application : https://simonrethore.github.io/
+- Git : https://github.com/SimonRethore/app-questionnaire-vue
+
+---Utilisateur partie Administration --- 
+- Nom d'utilisateur : admin
+- Mot de passe : admin
+
+--- Informations Complémentaires ---
+Il éxiste une seule question pour laquelle la réponse corecte est une réponse multiple :
+'Quels langages peuvent être utilisés avec une Programmation Orienté Objet ?'
+    => Java / C / C++
+Sinon l'ensemble des question ont une seule réponse valide.
+
 --- 23/10/19 8h00 ---  
 Objectif:  
 - [X] Initialiser le projet  
@@ -8,15 +22,20 @@ Objectif:
 --- 28/10/19 8h00 ---  
 Objectif:  
 - [X] Installation PouchDB  
-- [X] Inscription questionnaire  
+- [X] Inscription Questionnaire  
 - [X] Connexion partie Admin  
 - [X] Fichier JSON  
-<<<<<<< HEAD
 
---- 28/10/19 19h00 ---  
+--- 28/10/19 13h00 ---  
 Objectif:  
 - [X] Composant Questions
 - [X] Vérification Réponse Correct
 - [X] Réponses multiples possible  
-=======
->>>>>>> ee8db0d5e84e7faec3ae7bf5d9e16eb2cb08f038
+
+--- 19/11/19 13h00 ---  
+Objectif:  
+- [X] Résolution Bug Options
+- [X] Composant Reponse
+- [X] Commenter le code
+- [X] Préfixer Variables
+- [X] Finir le projet
