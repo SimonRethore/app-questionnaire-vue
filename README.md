@@ -1,8 +1,7 @@
 ### Liens
-```
 - Application : https://simonrethore.github.io/
 - Git : https://github.com/SimonRethore/app-questionnaire-vue
-```
+
 
 ### Utilisateur partie Administration
 ```
