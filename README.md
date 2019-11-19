@@ -1,17 +1,25 @@
---- Liens --- 
+### Liens
+```
 - Application : https://simonrethore.github.io/
 - Git : https://github.com/SimonRethore/app-questionnaire-vue
+```
 
---- Utilisateur partie Administration --- 
+### Utilisateur partie Administration
+```
 - Nom d'utilisateur : admin
 - Mot de passe : admin
+```
 
---- Informations Complémentaires ---
+### Informations Complémentaires
+```
 - Il éxiste une seule question pour laquelle la réponse corecte est une réponse multiple :
 'Quels langages peuvent être utilisés avec une Programmation Orienté Objet ?'
     => Java / C / C++
 - Sinon l'ensemble des question ont une seule réponse valide.
+```
 
+### Objectifs Séances
+```
 --- 23/10/19 8h00 ---  
 Objectif:  
 - [X] Initialiser le projet  
@@ -39,3 +47,4 @@ Objectif:
 - [X] Commenter le code
 - [X] Préfixer Variables
 - [X] Finir le projet
+```
