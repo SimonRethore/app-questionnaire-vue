@@ -2,15 +2,15 @@
 - Application : https://simonrethore.github.io/
 - Git : https://github.com/SimonRethore/app-questionnaire-vue
 
----Utilisateur partie Administration --- 
+--- Utilisateur partie Administration --- 
 - Nom d'utilisateur : admin
 - Mot de passe : admin
 
 --- Informations Complémentaires ---
-Il éxiste une seule question pour laquelle la réponse corecte est une réponse multiple :
+- Il éxiste une seule question pour laquelle la réponse corecte est une réponse multiple :
 'Quels langages peuvent être utilisés avec une Programmation Orienté Objet ?'
     => Java / C / C++
-Sinon l'ensemble des question ont une seule réponse valide.
+- Sinon l'ensemble des question ont une seule réponse valide.
 
 --- 23/10/19 8h00 ---  
 Objectif:  
